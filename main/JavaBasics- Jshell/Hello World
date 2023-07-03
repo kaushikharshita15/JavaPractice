@@ -1,0 +1,29 @@
+Microsoft Windows [Version 10.0.19044.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\akky>jshell
+|  Welcome to JShell -- Version 17.0.7
+|  For an introduction type: /help intro
+
+jshell> System.out.print("Hello World");
+Hello World
+jshell> System.out.print("Hello Tim");
+Hello Tim
+jshell> System.out.print("Hello Tim"
+   ...> );
+Hello Tim
+jshell> System.out.print("Hello, Tim);
+|  Error:
+|  unclosed string literal
+|  System.out.print("Hello, Tim);
+|                   ^
+
+jshell> System.out.print("Hello, Tim");
+Hello, Tim
+jshell> System.out.print('Hello, Tim');
+|  Error:
+|  unclosed character literal
+|  System.out.print('Hello, Tim');
+|                   ^
+
+jshell>
