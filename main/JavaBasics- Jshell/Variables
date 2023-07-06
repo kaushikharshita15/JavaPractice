@@ -1,0 +1,49 @@
+C:\Users\akky>jshell
+|  Welcome to JShell -- Version 17.0.7
+|  For an introduction type: /help intro
+
+jshell> int num=5;
+num ==> 5
+
+jshell> System.out.print(myFirstNumber);
+5
+jshell>
+
+jshell> int myFirstNumber=5;
+myFirstNumber ==> 5
+
+jshell> system.out.print(myFirstNumber);
+|  Error:
+|  package system does not exist
+|  system.out.print(myFirstNumber);
+|  ^--------^
+
+jshell> System.out.print(myFirstNumber);
+5
+jshell> myFirstNumber=10;
+myFirstNumber ==> 10
+
+jshell> System.out.print(myFirstNumber);
+10
+jshell> myFirstNumber=1000;
+myFirstNumber ==> 1000
+
+jshell> System.out.print(myFirstNumber);
+1000
+jshell> /list
+
+   1 : int myFirstNumber=5;
+   2 : System.out.print(myFirstNumber);
+   3 : myFirstNumber=10;
+   4 : System.out.print(myFirstNumber);
+   5 : myFirstNumber=1000;
+   6 : System.out.print(myFirstNumber);
+   
+   jshell> int myNumber=100;
+myNumber ==> 100
+
+jshell> myNumber= 5+10;
+myNumber ==> 15
+
+jshell> myNumber= (5+10)+(2*10);
+myNumber ==> 35
