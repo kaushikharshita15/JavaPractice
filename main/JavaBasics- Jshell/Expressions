@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.19044.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\akky>jshell
+|  Welcome to JShell -- Version 17.0.7
+|  For an introduction type: /help intro
+
+jshell> int mySecondNumber = 12; int myThirdNumber=6;
+mySecondNumber ==> 12
+myThirdNumber ==> 6
+
+jshell> int myFirstNumber = (10+5) +(2*10);
+myFirstNumber ==> 35
+
+jshell> /var
+|    int mySecondNumber = 12
+|    int myThirdNumber = 6
+|    int myFirstNumber = 35
+
+jshell> int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+myTotal ==> 53
+
+jshell>
+
+jshell> myThirdNumber= myFirstNumber *2;
+myThirdNumber ==> 70
+
+jshell> int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+myTotal ==> 117
+
+jshell> int myLastOne= 1000 - myTotal;
+myLastOne ==> 883
+
+jshell> System.out.print(mylastOne);
+|  Error:
+|  cannot find symbol
+|    symbol:   variable mylastOne
+|  System.out.print(mylastOne);
+|                   ^-------^
+
+jshell> System.out.print(myLastOne);
+883
