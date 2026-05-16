@@ -30,14 +30,18 @@ isTeen(13);  should return true since 13 is in range 13 - 19
 
 
 NOTE: All methods need to be defined as public static ​like we have been doing so far in the course.
-NOTE: Do not add a  main method to solution code. */
+NOTE: Do not add a  main method to solution code.
+
+*/
+
+
 
 public class TeenNumberChecker {
     
     public static boolean hasTeen(int a, int b, int c){
         
-        return (12 < a && a < 20 || 12 < b && b < 20 || 12 < c && c < 20 );
-            
+        return (isTeen (a) || isTeen (b) || isTeen (c));
+    
         
     }
     
